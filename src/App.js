@@ -21,7 +21,6 @@ const App = () => {
       content: newNote,
       date: new Date().toISOString(),
       important: Math.random() > 0.5,
-      id: notes.length + 1,
     }
   
     axios
